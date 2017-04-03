@@ -21,9 +21,9 @@ class mahasiswaController extends Controller
   public function simpan()
   {
   	$mahasiswa = new mahasiswa();
-  	$mahasiswa->nama = 'Sri uswatul';
-  	$mahasiswa->nim = '1515015193';
-  	$mahasiswa->alamat = 'perjuangan 1';
+  	$mahasiswa->nama = 'Yuna';
+  	$mahasiswa->nim = '1515015151';
+  	$mahasiswa->alamat = 'Lambung';
   	$mahasiswa->pengguna_id = '1';
   	$mahasiswa->save();
     return "data dengan nama {$mahasiswa->nama} telah disimpan";
